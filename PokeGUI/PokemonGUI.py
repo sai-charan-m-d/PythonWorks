@@ -163,7 +163,7 @@ class PageFour(tk.Frame):
         label.pack(pady=10,padx=10)
         button1 = ttk.Button(self, text="Back to home",
                             command=lambda:controller.show_frame(StartPage))
-##        button1.pack()
+        button1.pack()
 ##        button2 = ttk.Button(self, text="next Page",
 ##                            command=lambda:controller.show_frame(PageThree))
 ##        button2.pack()
