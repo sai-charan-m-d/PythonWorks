@@ -1,6 +1,5 @@
 import cv2   #we are importing the module called opencv (open computer vision)
 import numpy as np   #we are importing the module called numpy for acurate mathematics calculation
-import matplotlib.pyplot as plt  #we can use this module for potting the points and graphs
 
 def make_coordinates(image, line_parameters):
     slope, intercept = line_parameters
