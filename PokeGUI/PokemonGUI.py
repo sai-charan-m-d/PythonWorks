@@ -166,8 +166,7 @@ class PageFour(tk.Frame):
         button1.pack()
 ##        button2 = ttk.Button(self, text="next Page",
 ##                            command=lambda:controller.show_frame(PageThree))
-##        button2.pack()
-##        
+##        button2.pack()  
         f = Figure(figsize=(5,5),dpi=100)
         ax = f.add_subplot(111)
         ax.violinplot(dataset=df)
@@ -179,6 +178,5 @@ class PageFour(tk.Frame):
         toolbar.update()
         canvas._tkcanvas.pack(side = tk.TOP, fill= tk.BOTH,expand = True)
 
-        
 app = PokemonApp()
 app.mainloop()
